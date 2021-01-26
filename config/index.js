@@ -1,13 +1,13 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "Bryan Herrera",
-  siteTitle: "Bryan Herrera",
-  siteShortTitle: "Bryan", // Used as logo text in header, footer, and splash screen
+  author: "Amitay Soffer",
+  siteTitle: "Amitay Soffer",
+  siteShortTitle: "Amitay Soffer", // Used as logo text in header, footer, and splash screen
   siteDescription: "Full stack developer portfolio.",
   siteUrl: "https://bryan-herrera.com",
   siteLanguage: "en_US",
   siteIcon: "./content/square-bryan.jpg", // Relative to gatsby-config file
-  seoTitleSuffix: "Bryan Herrera", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Amitay Soffer", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
   colors: {
@@ -55,15 +55,11 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/herrerabryan/",
+      url: "https://www.linkedin.com/in/amitay-soffer-137304151/",
     },
     {
       name: "Github",
-      url: "https://github.com/bcherrera14",
-    },
-    {
-      name: "Medium",
-      url: "https://bcherrera.medium.com/",
+      url: "https://github.com/amitaysoffer",
     },
   ],
 
@@ -87,11 +83,11 @@ module.exports = {
   footerLinks: [
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/herrerabryan/",
+      url: "https://www.linkedin.com/in/amitay-soffer-137304151/",
     },
     {
       name: "Github",
-      url: "https://github.com/bcherrera14",
+      url: "https://github.com/amitaysoffer",
     },
   ],
 }
