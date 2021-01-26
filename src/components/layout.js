@@ -27,9 +27,9 @@ const StyledLayoutWrapper = styled.div`
 
 const Layout = ({ children }) => {
   // Enables dark mode if the user's OS has an active dark theme
-  // const darkModeEnabled = useDarkMode()
-  // const theme = darkModeEnabled ? darkTheme : lightTheme
-  const theme = lightTheme
+  const darkModeEnabled = useDarkMode()
+  const theme = darkModeEnabled ? darkTheme : lightTheme
+  // const theme = lightTheme
 
   return (
     <StyledLayoutWrapper>
